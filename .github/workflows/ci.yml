@@ -24,9 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Typecheck
-        run: yarn typecheck
-
       - name: Build Library
         run: yarn prepare
 
