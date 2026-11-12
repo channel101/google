@@ -51,9 +51,12 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x example/android/gradlew
+
       - name: Build Android
         run: yarn example build:android
-
+        
   # build-ios:
   #   name: Build iOS Example
   #   needs: test-and-build-lib
