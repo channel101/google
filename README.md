@@ -18,6 +18,7 @@
 - [Prerequisites](#prerequisites)
 - [Features](#features)
 - [Installation](#installation)
+- [Example App](#download-the-example-app)
 - [Usage](#usage)
 - [API Reference](#api-reference)
 - [License](#license)
@@ -58,6 +59,19 @@ npm install @react-native-auth/google
 yarn add @react-native-auth/google
 ```
 ---
+
+## Download the Example App
+
+You can download the example app on our github action's [artifacts](https://github.com/react-native-auth/google/actions/workflows/ci.yml)
+
+The source of the example app can be found [here](https://github.com/react-native-auth/google/tree/main/example)
+
+The `SHA-1 fingerprint` of the example app is:
+```
+5E:8F:16:06:2E:A3:CD:2C:4A:0D:54:78:76:BA:A6:F3:8C:AB:F6:25
+```
+
+> The example app uses the default [`debug.keystore`](https://github.com/react-native-auth/google/blob/main/example/android/app/debug.keystore) file provided by android.
 
 ## Usage
 
